@@ -26,7 +26,7 @@ def install_and_import(package):
 requests = install_and_import("requests")
 
 # --- Operators ---
-class JARVIS_OT_Bridge(bpy.types.Operator):
+class AI_OT_Bridge(bpy.types.Operator):
     bl_idname = "wm.ai_bridge"
     bl_label = "AI Bridge"
     _timer = None
